@@ -2956,7 +2956,7 @@ int import_data_object(char* msg_buf, unsigned long msg_buf_len, unsigned long h
 	  {CKA_CLASS, 	&data_class, 	sizeof(data_class)},
 	  {CKA_TOKEN, 	&bToken, 		sizeof(bToken)},
 	  {CKA_LABEL, 	data_label, 	data_label_len},
-	  {CKA_ID, 	  	data_id, 		data_id_len},
+	 // {CKA_ID, 	  	data_id, 		data_id_len},
 	  {CKA_VALUE, 	value, 			value_len}
 	};
 
